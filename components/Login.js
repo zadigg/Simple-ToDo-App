@@ -1,6 +1,3 @@
-import React from "react";
-import Book from "../public/book.png";
-
 function Login() {
   return (
     <login className=" bg-gray-50 w-full h-screen block ">
@@ -9,6 +6,7 @@ function Login() {
           <h1 className=" font-bold text-5xl">Welcome</h1>
         </div>
         {/*  */}
+
         <div className="pt-9 space-y-6">
           <div>
             <label htmlFor="">
