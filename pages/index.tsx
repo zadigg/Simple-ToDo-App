@@ -10,7 +10,7 @@ import {
 import db from "../firebase/firebase";
 
 export default function Home() {
-  const [todos, setTodos] = useState([{ name: "Loading ...", id: "initial" }]);
+  const [todos, setTodos] = useState([{ id: "initial" }]);
 
   // console.log(todos);
 
